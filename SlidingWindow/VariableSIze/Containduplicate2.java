@@ -35,8 +35,30 @@ public class Containduplicate2 {
 
     public static void main(String[] args) {
 
-        int[] nums = {99, 1, 2, 3, 1, 99, 2, 3, 99, 1, 2, 99};
+        int[] nums = { 99, 1, 2, 3, 1, 99, 2, 3, 99, 1, 2, 99 };
         int k = 4;
+
+        // For different test cases commented below
+        // int[] nums0=[1, 2, 3, 1];
+        // int k0= 3;
+
+        // int[] nums1 = { 1, 0, 1, 1 };
+        // int k1 = 1;
+
+        // int[] nums2 = { 1, 2, 3, 4, 5 };
+        // int k2 = 3;
+
+        // int[] nums3 = { 1, 2, 3, 1 };
+        // int k3 = 3;
+
+        // int[] nums4 = { 2, 3, 4 };
+        // int k4 = 2;
+
+        // int[] nums5 = { 2, 3, 4 };
+        // int k5 = 3;
+
+        // int[] nums6 = { 2, 3, 4 };
+        // int k6 = 4;
 
         boolean result = containsNearbyDuplicate(nums, k);
 
